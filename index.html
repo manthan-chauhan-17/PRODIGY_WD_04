@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script><!--Type JS CDN-->
+    <title>Portfolio | Manthan Chauhan</title>
+</head>
+
+<body>
+    <!-- Progress bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home" class="active">Manthan Chauhan</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <!-- Home -->
+    <div class="home" id="home">
+        <img src="media/profile-pic.png" alt="main-pic">
+        <h1>Hey , I am <span id="element"></span></h1>
+        <h2>Welcome to my portfolio </h2>
+        <p>Explore the projects that showcase my passion for technology and commitment to excellence.</p>
+        <button id="download-button">Download CV</button>
+        <a href="#" id="scrollButton"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About -->
+    <h1 id="about">🌿 About Me 🌿</h1>
+    <section class="about">
+        <!-- Welcome -->
+        <h2>🚀 Welcome to My Digital World!</h2>
+        <p>Hello there! I'm <strong>Manthan Chauhan</strong>, a passionate and creative software developer with a
+            mission to transform ideas into powerful, user-friendly applications. With a keen eye for detail and a love
+            for elegant code, I specialize in crafting digital experiences that leave a lasting impression.</p>
+
+        <!-- Who am i -->
+        <h2>🌐 Who am I?</h2>
+        <p>I'm not just a coder; I'm a digital architect who believes in the beauty of simplicity and the power of
+            innovation. From front-end design to back-end functionality, I'm dedicated to delivering solutions that not
+            only meet but exceed expectations. My toolbox includes a variety of languages and frameworks, allowing me to
+            adapt to the unique needs of each project.</p>
+
+        <!-- Education -->
+        <h2>🎓 Education Qualification 🎓</h2>
+        <p>
+            <span class="bold">1. Secondary School Certificate (SSC):</span> <br><br>
+            I successfully completed my Secondary School Certificate at Indian Public School, where I acquired a strong
+            foundation in various subjects. The rigorous curriculum provided by GSEB board enhanced my
+            analytical and problem-solving skills. I graduated in 2019 with an impressive 83.7%.
+        </p><br>
+        <p>
+            <span class="bold">2. Higher Secondary Certificate (HSC):</span> <br><br>
+
+            Continuing my academic journey, I pursued my Higher Secondary Certificate at Navyug Vidhyalay. Under the
+            guidance of experienced faculty members, I delved into advanced subjects, including Maths , Physics and
+            Chemistry. I graduated in 2021, achieving a notable 74.6%.
+        </p><br>
+        <p>
+            <span class="bold">3. Bachelor of Technology (B.Tech):</span> <br><br>
+            Currently, I am pursuing a Bachelor of Technology degree at Silver Oak University, majoring in Information
+            Technology. Expected to graduate in 2025, I have maintained a commendable 9.17 CPI.
+        </p>
+
+        <!-- Technical Skills -->
+        <h2>👨‍💻 Technical Skills</h2>
+        <p> <span class="bold">Front-end Language :</span> HTML, CSS, JavaScript <br>
+            <span class="bold">Back-end Language :</span> JavaScript , Node js <br>
+            <span class="bold">Programming Language :</span> C , Java , Python <br>
+        </p>
+
+        <!-- Why work with me -->
+        <h2>🌟 Why Work With Me?</h2>
+        <p>Collaboration is at the heart of my approach. I believe in building strong relationships with clients and
+            fellow developers alike. Through open communication and a collaborative mindset, I ensure that every project
+            I touch is a success. My goal is not just to write code but to create solutions that make a real impact.</p>
+        <p>Let's embark on a journey of innovation together. Whether you have a specific project in mind or just want to
+            connect, feel free to reach out. The possibilities are limitless, and I'm excited to be a part of your next
+            digital adventure!</p>
+    </section>
+
+    <!-- Projects -->
+    <h1 id="projects">📂 Projects 📂</h1>
+    <section class="projects">
+        <div class="project-item">
+            <h1>1</h1>
+            <img src="media/digital-clock.png" alt="digital-clock-project">
+        </div>
+        <div class="project-item">
+            <h1>2</h1>
+            <img src="media/calculator.png" alt="calculator-project">
+        </div>
+        <div class="project-item">
+            <h1>3</h1>
+            <img src="media/rock-paper-scissor.png" alt="rock-paper-scissor-project">
+        </div>
+        <div class="project-item">
+            <h1>4</h1>
+            <video src="media/shoe-landing-page.mp4" autoplay></video>
+        </div>
+        <div class="project-item">
+            <h1>5</h1>
+            <img src="media/tic-tac-toe.png" alt="tic-tac-toe-project">
+        </div>
+        <div class="project-item">
+            <h1>6</h1>
+            <video src="media/stop-watch.mp4" autoplay></video>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <h1 id="contact">📬 Get in Touch 📬</h1>
+    <p>Want to get in touch with me? just feel free to drop me a line anytime</p>
+    <div class="contact">
+        <form action="https://formsubmit.co/manthanchauhan1108@gmail.com" method="POST">
+            <input type="text" placeholder="Your Name" name="name" required>
+            <input type="email" placeholder="Your Email" name="email" required>
+            <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+            <button type="submit" id="submit-button">Send Message</button>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer>
+        &copy; 2023 <span>Manthan Chauhan</span> |
+        <a href="mailto:your.email@example.com">manthanchauhan062@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/manthan-chauhan-835086260/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/manthan-chauhan-17" target="_blank">GitHub</a>
+        <p>Designed by Manthan Chauhan</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
